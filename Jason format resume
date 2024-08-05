@@ -1,0 +1,39 @@
+Prompt: "Parse my resume into JSON format"
+
+
+1. **Contact Information**
+2. **Professional Summary**
+3. **Work Experience**
+4. **Education**
+5. **Skills**
+6. **Certifications**
+
+[Insert your resume content here]
+
+{
+  "Contact Information": {
+    "Name": "John Doe",
+    "Phone": "123-456-7890",
+    "Email": "john.doe@example.com",
+    "LinkedIn": "https://linkedin.com/in/johndoe"
+  },
+  "Professional Summary": "Experienced software engineer with a strong background in developing scalable applications...",
+  "Work Experience": [
+    {
+      "Company": "Tech Solutions",
+      "Title": "Software Engineer",
+      "Dates": "Jan 2020 - Present",
+      "Responsibilities": [
+        "Developed and maintained web applications",
+        "Collaborated with cross-functional teams"
+      ]
+    }
+  ],
+  "Education": {
+    "Degree": "Bachelor of Science in Computer Science",
+    "Institution": "University of Technology",
+    "Year": "2019"
+  },
+  "Skills": ["Python", "Java", "Docker", "Kubernetes"],
+  "Certifications": ["AWS Certified Solutions Architect"]
+}
